@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/login.css">
+</head>
+<body>
+    <div class="container-login">
+        <div>
+            <form class="devbook-form" id="formulario-cadastro">
+                <span> Cadastrar </span>
+                <div>
+                    <input type='text' name="nome" id='nome' placeholder='Nome completo' required>
+                </div>
+                <div>
+                    <input type='text' name="email" id='email' placeholder='Digite seu email' required>
+                </div>
+                <div>
+                    <input type='text' name="nick" id='nick' placeholder='Digite seu apelido' required>
+                </div>
+                <div>
+                    <input type='password' name="senha" id='senha' placeholder='Digite sua senha' required>
+                </div>
+                <div>
+                    <input type='password' name="confirmaSenha" id='confirmaSenha' placeholder='Confirme sua senha' required>
+                </div>
+                <button type="submit" class="btn-devbook">Cadastrar</button>
+            </form>
+            <br>
+            <p> Já tem uma conta?
+                <br>
+                <a href="/login"> Login </a>
+            </p>
+        </div>
+    </div>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/cadastro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/login.css">
+</head>
+<body>
+    <div class="container-login">
+        <div>
+            <form class="devbook-form" id="login">
+                <span> Entrar </span>
+                <div>
+                    <input type='text' name="email" id='email' placeholder='Digite seu email' required>
+                </div>
+                <div>
+                    <input type='password' name="senha" id='senha' placeholder='Digite sua senha' required>
+                </div>
+                <button type="submit" class="btn-devbook">Entrar</button>
+            </form>
+            <br>
+            <p> Não tem uma conta?
+                <br>
+                <a href="/criar-usuario"> Criar conta </a>
+            </p>
+        </div>
+    </div>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/assets/js/login.js"></script>
+</body>
+</html>
